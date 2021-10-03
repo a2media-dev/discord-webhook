@@ -1,0 +1,31 @@
+{
+    "name": "a2media/discord-webhook",
+    "type": "library",
+    "description": "php discord webhook",
+    "keywords": [
+        "discord",
+        "webhook"
+    ],
+    "homepage": "https://github.com/a2media-dev/discord-webhook",
+    "license": "WTFPL",
+    "authors": [
+        {
+            "name": "A2media",
+            "email": "dev@a2media.id",
+            "homepage": "https://github.com/a2media-dev/discord-webhook"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "A2Media\\DiscordWebhook\\": "src/"
+        },
+        "psr-4": {
+            "A2Media\\DiscordWebhook\\": "src/"
+        }
+    },
+    "require": {
+        "ext-json": "*",
+        "ext-curl": "*",
+        "php": ">=5.3.0"
+    }
+}
